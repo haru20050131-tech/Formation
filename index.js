@@ -395,7 +395,7 @@ if (reversed == null) { reversed = false; }
 
 
 // stage content:
-(lib.試作 = function(mode,startPosition,loop,reversed) {
+(lib.indec = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -510,7 +510,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/試作_atlas_1.png?1776672675656", id:"試作_atlas_1"}
+		{src:"images/index_atlas_1.png?1776672675656", id:"index_atlas_1"}
 	],
 	preloads: []
 };
